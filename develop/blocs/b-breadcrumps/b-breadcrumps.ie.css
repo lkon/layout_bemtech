@@ -1,0 +1,11 @@
+.b-breadcrumps{
+	margin-bottom:37px;
+}
+.b-breadcrumps__item{
+	margin-bottom:4px;
+}
+.b-breadcrumps__item_state_current{
+	margin-left:-10px;
+	padding-left:10px;
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAFCAYAAABirU3bAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpiNDY2ZgACEPEeiO8xAYkOID4DxHeBOJQRqOI/AwLsAanYgyzAAiTCgDgNasYsgAADAOyeCzsYhaTVAAAAAElFTkSuQmCC) 0 50% no-repeat;
+}

@@ -1,0 +1,19 @@
+.b-search{
+	position:relative;
+	bottom:4px;
+	display:inline;
+	
+	vertical-align:bottom;
+}
+.b-search__input{
+	font: 13px/31px Arial, sans-serif;
+
+    width: 83px;
+    height: 31px;
+    padding-left: 30px;
+
+    border: 1px solid #ccc;
+
+    color: #525252;
+    background: #f1f3f5 url(b-search__input.png) 9px 9px  no-repeat;
+}

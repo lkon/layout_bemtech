@@ -1,0 +1,9 @@
+.b-criteriones__head{
+	font:bold 15px/2 Arial, sans-serif;
+	margin-top:35px;
+}
+.b-criteriones__item{
+	margin:12px 0;
+	list-style: inside;
+	list-style-type: decimal;
+}

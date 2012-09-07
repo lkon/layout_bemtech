@@ -1,0 +1,35 @@
+.b-menu__sublist{
+	position:absolute;
+
+    display: none;
+
+    width: 100%;
+}
+.b-menu__sublist:hover{
+    display: block;
+}
+
+.b-menu__item_has_submenu .b-menu__sublist{
+   	background: #2d4f76; /* Old browsers */
+	background: -moz-linear-gradient(top, #2d4f76 0%, #3a6493 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2d4f76), color-stop(100%,#3a6493)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #2d4f76 0%,#3a6493 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #2d4f76 0%,#3a6493 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #2d4f76 0%,#3a6493 100%); /* IE10+ */
+	background: linear-gradient(top, #2d4f76 0%,#3a6493 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d4f76', endColorstr='#3a6493',GradientType=0 ); /* IE6-9 */
+}
+
+.b-menu__item_state_current .b-menu__sublist{
+    background: #729cc4;
+}
+
+.b-menu__sublist-item,
+.b-menu__sublist-item .b-menu__link {
+    display: block;
+}
+.b-menu__sublist-item .b-menu__link {
+    width: auto;
+    padding-left: 24px;
+    text-align: left;
+}

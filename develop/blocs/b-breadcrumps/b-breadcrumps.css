@@ -1,0 +1,10 @@
+.b-breadcrumps{
+	margin-bottom:37px;
+}
+.b-breadcrumps__item{
+	margin-bottom:4px;
+}
+.b-breadcrumps__item_state_current{
+	list-style-type: disc;
+	list-style-position: outside;
+}

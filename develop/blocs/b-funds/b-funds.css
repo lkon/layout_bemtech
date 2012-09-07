@@ -1,0 +1,16 @@
+.b-funds{
+	width:400px;
+}
+.b-funds__item{
+	margin-top:24px;
+}
+.b-funds__item li{
+	margin-top:3px;
+}
+.b-funds__head{
+	line-height:1.5;
+	white-space:nowrap;
+	margin:7px 0 13px;
+	padding-top:13px;
+	border-top:1px solid #abb5bf;
+}

@@ -1,0 +1,36 @@
+.b-menu{
+	position:relative;
+	bottom:5px;
+	display:inline;
+	margin-right:9px;
+	vertical-align:bottom;
+	white-space:nowrap;
+	zoom:1;
+}
+.b-menu__item{
+	display:inline;
+	border-left:1px solid #69c;
+	border-right:1px solid #336;
+	background: #2d4f76; /* Old browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d4f76', endColorstr='#3a6493',GradientType=0 ); /* IE6-9 */
+}
+
+.b-menu__item_state_current{
+	background: #729cc4;
+}
+
+.b-menu__item:first-child{
+    border-left: 0;
+}
+
+.b-menu__item:last-child{
+    border-right: 0;
+}
+
+.b-menu__item:hover .b-menu__sublist{
+    display: block;
+}
+
+.b-menu__item_has_submenu {
+	position:relative;
+}

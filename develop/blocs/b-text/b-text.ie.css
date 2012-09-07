@@ -1,0 +1,19 @@
+.b-text{
+	box-sizing:border-box;
+	padding: 54px 130px 54px 0;
+}
+
+.b-text h1{
+	padding-bottom:27px;
+}
+
+.b-text p{
+	margin-bottom:8px;
+}
+.b-text ul{
+	margin-bottom:8px;
+}
+.b-text__item_has_bullit{
+	text-indent:10px;
+	background:url(data:image\png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAIAAAB2XpiaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhJREFUeNpinDBx4s0bN/7//6+lpQUQYAA29Qe4SoDhKgAAAABJRU5ErkJggg==) 0 50% no-repeat;
+}

@@ -1,0 +1,27 @@
+body{
+	font:13px/1.4 Arial, sans-serif;	
+	text-align:justify;
+	color:#333;
+	background:#fff url("i-global.png");
+}
+
+h1{
+	font:30px/1 Georgia, serif;
+}
+h2{
+	font:18px/15px Georgia, serif;
+}
+:link{
+	text-decoration:none;	
+	color:#05c;
+}
+:visited{
+	color:#962680;
+	outline: none;
+}
+a:hover{
+	text-decoration:none;
+}
+a:active{
+	outline: none;
+}
